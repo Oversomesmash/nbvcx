@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;600;700&display=swap');
+
+:root{
+    --light-broun: #E9E0E0;
+    --white: #FFFFFF;
+    
+
+}
+body{
+    font-family: 'Signika Negative', sans-serif;
+    background-color: var(--light-broun);
+    color: var(--white)
+}
+.logo{
+    width: 71px;
+    height: 71px;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 100%;
+    padding: 3px;
+    
+   
+}
+
+.logo-tg{
+    width: 40px;
+    height: 45px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 9px;
+}
+.logo-inst{
+    margin-left: 40px;
+    width:52px ;
+    height: 45px;
+    margin-top: 9px;
+}
+header{
+    display: flex;
+    background-color: #254D64;
+    justify-content: space-between;
+    max-height: 100px;
+}
+.nav{
+    display: flex;
+    list-style-type: none;
+}
+.nav-item{
+    margin-left: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--white);
+    margin-top: 22px;
+    display: flex;
+    justify-content: center;
+
+}
+.nav-item a:visited{
+    text-decoration: none;
+    color: var(--white);
+}
+.nav-item a{
+    text-decoration: none;
+    transition: .2s ease color;
+}
+.nav-item a:hover{
+    color: green;
+}
+.nav-item-group{
+    margin-top: 14px;
+}
+
+h1{
+    color: #184C21;
+    text-align: center;
+}
+.main-video{
+    display: flex;
+    margin: 0 auto;
+}
+.nav-item-video-active{
+  
+    background-color: #4B9CC8;
+    border: 1px solid #4B9CC8;
+    padding-top: 9px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 50px;
+}
+.video{
+    margin: 0 auto;
+    display: block;
+    margin-top: 80px;
+}
+main p{
+    text-align: center;
+    color: #000000;
+    font-size: 27px;
+}
+.adobe{
+    margin: 0 auto;
+    display: block;
+    margin-top: 80px;
+}
+.pr{
+    font-size: 23px;
+    color: rgb(110, 40, 175);
+}
+.vid{
+    font-size: 23px;
+    color: rgb(204, 87, 87);
+}
+.sport{
+    font-size: 24px;
+    color: rgb(67, 67, 170);
+}
+footer{
+    background-color: rgb(51, 48, 48);
+    height: 300px;
+    margin-top: 70px;
+
+}
+.sill a:visited{
+    text-decoration: none;
+    color: rgb(125, 62, 184);
+}
+.sill a{
+    text-decoration: none;
+    transition: .2s ease color;
+    color: rgb(46, 36, 180);
+}
+.sill a:hover{
+    color: rgb(187, 11, 11);
+}
+footer p{
+    color: cornsilk;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+footer a{
+    text-decoration: none;
+    color: var(--white);
+}
+footer a:visited{
+    text-decoration: none;
+    color: rgb(215, 213, 218);
+}
+footer a{
+    text-decoration: none;
+    transition: .2s ease color;
+    color: rgb(255, 255, 255);
+}
+footer a:hover{
+    color: rgb(190, 4, 4);
+}    
+.footerp{
+    font-size: 18px;
+    color: var(--white);
+}
